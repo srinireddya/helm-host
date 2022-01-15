@@ -3,7 +3,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2022-01-14T22:55:52.898496-06:00"
+    created: "2022-01-14T23:04:51.20731-06:00"
     deprecated: true
     description: DEPRECATED - Open source continuous integration server. It supports
       multiple SCM tools including CVS, Subversion and Git. It can execute Apache
@@ -23,7 +23,7 @@ entries:
   spark:
   - apiVersion: v1
     appVersion: 1.5.1
-    created: "2022-01-14T22:55:52.899887-06:00"
+    created: "2022-01-14T23:04:51.208816-06:00"
     deprecated: true
     description: DEPRECATED - Fast and general-purpose cluster computing system.
     digest: e0b4862812f85dcf7b92d71ed90e9f894f1aef35bb76f384fe322ba736cd10fc
@@ -39,7 +39,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2022-01-14T22:55:52.902673-06:00"
+    created: "2022-01-14T23:04:51.212104-06:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -66,4 +66,4 @@ entries:
     urls:
     - https://srinireddya.github.io/helm-host/wordpress-9.0.3.tgz
     version: 9.0.3
-generated: "2022-01-14T22:55:52.89525-06:00"
+generated: "2022-01-14T23:04:51.203937-06:00"
